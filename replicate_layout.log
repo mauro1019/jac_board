@@ -1,0 +1,92 @@
+07-10 00:34:55 replicate_layout.action_replicate_layout 311:Plugin executed on: 'win32'
+07-10 00:34:55 replicate_layout.action_replicate_layout 312:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+07-10 00:34:55 replicate_layout.action_replicate_layout 313:KiCad build version: (5.1.9)-1
+07-10 00:34:55 replicate_layout.action_replicate_layout 314:Replicate layout plugin version: 73 started
+07-10 00:34:55 replicate_layout.action_replicate_layout 327:All top level windows titles are:
+kicad (5.1.9)-1 e:\devboard\kicad\projects\jac_board\jac_board.pro
+
+pcbnew — e:\devboard\kicad\projects\jac_board\jac_board.kicad_pcb
+
+
+replicate layout
+07-10 00:34:55 replicate_layout.action_replicate_layout 328:All top level windows objects are:
+ <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x321d330> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x13e3a10> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x90dbeb0> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x9bc6e90> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x9f1c400> >
+<replicate_layout.action_replicate_layout.ReplicateLayoutDialog; proxy of <Swig Object of type 'wxDialog *' at 0xa590a20> >
+07-10 00:34:55 replicate_layout.action_replicate_layout 351:Preparing replicator with Q4 as a reference
+07-10 00:34:55 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+07-10 00:34:55 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{u'60E0E1BE': [u'sheet60E0E1BC', u'E:\\DevBoard\\Kicad\\Projects\\jac_board\\out_to_motor.sch'], u'60CD7360': [u'Inputs', u'E:\\DevBoard\\Kicad\\Projects\\jac_board\\Inputs.sch'], u'60E0E872': [u'Sheet60E0E871', u'E:\\DevBoard\\Kicad\\Projects\\jac_board\\out_to_led.sch'], u'60DFA9C5': [u'Sheet60DFA9C4', u'E:\\DevBoard\\Kicad\\Projects\\jac_board\\out_to_motor.sch'], u'60CE1DEE': [u'micro', u'E:\\DevBoard\\Kicad\\Projects\\jac_board\\Microcontroller_STM32.sch'], u'60CC612C': [u'optoMosfet', u'E:\\DevBoard\\Kicad\\Projects\\jac_board\\optoMosfet.sch'], u'60E126A5': [u'sheet60E126A3', u'E:\\DevBoard\\Kicad\\Projects\\jac_board\\out_to_led.sch']}
+07-10 00:34:55 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+07-10 00:34:56 replicate_layout.action_replicate_layout 378:source anchor footprint is u'Q4'
+Located on:[u'optoMosfet', u'sheet60E126A3']
+With filenames:[u'optoMosfet.sch', u'out_to_led.sch']
+With sheet_id:[u'optoMosfet', u'sheet60E126A3']
+07-10 00:34:56 replicate_layout.action_replicate_layout 382:Corresponding footprints are 
+[(u'Q4', [u'optoMosfet', u'sheet60E126A3']), (u'Q3', [u'optoMosfet', u'Sheet60E0E871'])]
+07-10 00:34:56 replicate_layout.action_replicate_layout 395:Showing dialog
+07-10 00:34:56 replicate_layout.action_replicate_layout 399:Pcbnew position: wx.Point(-8, -8)
+07-10 00:34:56 replicate_layout.action_replicate_layout 405:Display 0: wx.Rect(0, 0, 1366, 768)
+07-10 00:34:56 replicate_layout.action_replicate_layout 409:Toolbar position: wx.Point(1149, 121)
+07-10 00:34:56 replicate_layout.action_replicate_layout 416:Dialog position: wx.Point(836, 121)
+07-10 00:35:02 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet60E126A3', file:u'out_to_led.sch'
+07-10 00:35:02 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'optoMosfet', u'sheet60E126A3']
+07-10 00:35:02 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'Q4', u'Q3']
+07-10 00:35:02 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/60CC612C/60E126A5/610DD10F', u'/60CC612C/60E0E872/610DD10F']
+07-10 00:35:02 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'optoMosfet', u'sheet60E126A3'], [u'optoMosfet', u'Sheet60E0E871']]
+07-10 00:35:02 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'optoMosfet', u'Sheet60E0E871'], [u'optoMosfet', u'sheet60E126A3']]
+07-10 00:35:02 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'optoMosfet', u'Sheet60E0E871']]
+07-10 00:35:07 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet60E126A3', file:u'out_to_led.sch'
+07-10 00:35:07 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'optoMosfet', u'sheet60E126A3']
+07-10 00:35:07 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'Q4', u'Q3']
+07-10 00:35:07 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/60CC612C/60E126A5/610DD10F', u'/60CC612C/60E0E872/610DD10F']
+07-10 00:35:07 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'optoMosfet', u'sheet60E126A3'], [u'optoMosfet', u'Sheet60E0E871']]
+07-10 00:35:07 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'optoMosfet', u'Sheet60E0E871'], [u'optoMosfet', u'sheet60E126A3']]
+07-10 00:35:07 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'optoMosfet', u'Sheet60E0E871']]
+07-10 00:35:07 replicate_layout.action_replicate_layout 185:Replicating layout
+07-10 00:35:07 replicate_layout.replicatelayout 994:Starting replication of sheets: [[u'optoMosfet', u'Sheet60E0E871']]
+on level: [u'optoMosfet', u'sheet60E126A3']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+07-10 00:35:07 root 267:updating GUI message: 'Preparing for replication'
+07-10 00:35:07 root 272:updating GUI with: 0
+07-10 00:35:07 replicate_layout.replicatelayout 556:Getting the list of source footprints
+07-10 00:35:07 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+07-10 00:35:07 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+07-10 00:35:07 replicate_layout.replicatelayout 568:Getting source bounding box
+07-10 00:35:07 root 272:updating GUI with: 37
+07-10 00:35:07 replicate_layout.replicatelayout 572:Getting source tracks
+07-10 00:35:07 replicate_layout.replicatelayout 576:Getting source zones
+07-10 00:35:07 root 272:updating GUI with: 62
+07-10 00:35:07 replicate_layout.replicatelayout 580:Getting source text items
+07-10 00:35:07 replicate_layout.replicatelayout 584:Getting source text items
+07-10 00:35:07 root 267:updating GUI message: 'Replicating footprints'
+07-10 00:35:07 replicate_layout.replicatelayout 590:Replicating footprints
+07-10 00:35:07 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'optoMosfet', u'Sheet60E0E871']
+07-10 00:35:07 root 267:updating GUI message: 'Replicating tracks'
+07-10 00:35:07 root 272:updating GUI with: 0
+07-10 00:35:07 replicate_layout.replicatelayout 720:Replicating tracks
+07-10 00:35:07 replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'optoMosfet', u'Sheet60E0E871']
+07-10 00:35:07 root 267:updating GUI message: 'Replicating zones'
+07-10 00:35:07 replicate_layout.replicatelayout 771:Replicating zones
+07-10 00:35:07 replicate_layout.replicatelayout 778:Replicating zones on sheet [u'optoMosfet', u'Sheet60E0E871']
+07-10 00:35:07 root 267:updating GUI message: 'Replicating text'
+07-10 00:35:07 replicate_layout.replicatelayout 837:Replicating text
+07-10 00:35:07 replicate_layout.replicatelayout 844:Replicating text on sheet [u'optoMosfet', u'Sheet60E0E871']
+07-10 00:35:07 root 267:updating GUI message: 'Replicating drawings'
+07-10 00:35:07 replicate_layout.replicatelayout 868:Replicating drawings
+07-10 00:35:07 root 272:updating GUI with: 0
+07-10 00:35:07 replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'optoMosfet', u'Sheet60E0E871']
+07-10 00:35:07 replicate_layout.action_replicate_layout 207:Replication complete

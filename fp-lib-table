@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name SI4178DY-T1-GE3)(type KiCad)(uri E:/DevBoard/Kicad/Library/myLibrary/LIB_SI4178DY-T1-GE3/SI4178DY-T1-GE3/KiCad)(options "")(descr ""))
+  (lib (name myKicadLibrary)(type KiCad)(uri E:/DevBoard/Kicad/Library/milib/myKicadLibrary.pretty)(options "")(descr ""))
+  (lib (name fuse_holder)(type KiCad)(uri E:/DevBoard/Kicad/Projects/jac_board/Librerias/LIB_178.6764.0001/178.6764.0001/KiCad)(options "")(descr ""))
+  (lib (name output_terminal)(type KiCad)(uri E:/DevBoard/Kicad/Projects/jac_board/Librerias/LIB_726386-2/726386-2/KiCad)(options "")(descr ""))
+)

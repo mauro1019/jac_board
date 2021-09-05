@@ -1,0 +1,34 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2700 900  2100 300 
+U 60CC612C
+F0 "optoMosfet" 50
+F1 "optoMosfet.sch" 50
+$EndSheet
+$Sheet
+S 2700 1400 2100 250 
+U 60CD7360
+F0 "Inputs" 50
+F1 "Inputs.sch" 50
+$EndSheet
+$Sheet
+S 2700 1900 2100 300 
+U 60CE1DEE
+F0 "micro" 50
+F1 "Microcontroller_STM32.sch" 50
+$EndSheet
+$EndSCHEMATC
