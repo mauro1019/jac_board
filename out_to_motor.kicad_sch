@@ -913,12 +913,12 @@
     (uuid 31aca1af-88ea-4c65-ac48-41a37b73ecb4)
   )
 
-  (label "out_motor" (at 118.11 106.68 0)
+  (label "out_motor" (at 118.11 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid afbf21f3-e936-4ebc-9e9d-20ca72d167ef)
   )
 
-  (hierarchical_label "out" (shape input) (at 58.42 95.25 180)
+  (hierarchical_label "out" (shape input) (at 58.42 95.25 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1a48f96b-d189-40e7-91f5-7e774b5e5554)
   )
